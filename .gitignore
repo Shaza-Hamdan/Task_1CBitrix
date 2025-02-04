@@ -1,0 +1,7 @@
+bitrix/
+upload/
+bitrix/.settings.php
+bitrix/php_interface/dbconn.php
+bitrix/license_key.php
+dump.sql
+.env
