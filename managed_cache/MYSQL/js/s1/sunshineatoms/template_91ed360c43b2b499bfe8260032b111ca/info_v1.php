@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/templates/sunshineatoms/js/droid_sans_400-droid_sans_700.font.js" => "139723493934441","/bitrix/templates/sunshineatoms/js/jquery-1.4.2.min.js" => "139723493972174","/bitrix/templates/sunshineatoms/js/script.js" => "13972349391136","/bitrix/templates/sunshineatoms/js/coin-slider.min.js" => "13972349398443",]; ?>

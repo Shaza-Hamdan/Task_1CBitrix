@@ -1,0 +1,97 @@
+
+
+/* Start:/bitrix/templates/My1stTemplate/template_styles.css?17387915601143*/
+/* Reset and base styles */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* Header styles */
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #343a40;
+  color: white;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background-color: #007bff;
+}
+
+/* Main content area */
+main {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Footer styles */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* End */
+/* /bitrix/templates/My1stTemplate/template_styles.css?17387915601143 */
