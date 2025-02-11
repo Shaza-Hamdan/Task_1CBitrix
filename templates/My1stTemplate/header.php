@@ -49,7 +49,7 @@
        <?php
 $APPLICATION->IncludeComponent(
     "bitrix:news.list",  
-    ".default",         
+	"Custom_news",         
     array(
         "IBLOCK_TYPE" => "новыеновости", 
         "IBLOCK_ID" => 4,                  
