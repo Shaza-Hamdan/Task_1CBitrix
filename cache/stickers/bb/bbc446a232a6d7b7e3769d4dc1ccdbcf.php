@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001739343124';
+$dateexpire = '001775343124';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:1:{s:8:"stickers";a:1:{i:0;a:29:{s:2:"ID";s:1:"1";s:7:"SITE_ID";s:2:"s1";s:8:"PAGE_URL";s:20:"/new_news/detail.php";s:10:"PAGE_TITLE";s:21:"Карта сайта";s:11:"DATE_CREATE";s:19:"2025-02-12 09:52:03";s:11:"DATE_UPDATE";s:19:"2025-02-12 09:52:04";s:11:"MODIFIED_BY";s:1:"1";s:10:"CREATED_BY";s:1:"1";s:8:"PERSONAL";s:1:"N";s:7:"CONTENT";s:62:"[ST_TITLE]Шаза хамдан 12.02.2025 09:51:56[/ST_TITLE]";s:7:"POS_TOP";s:3:"222";s:8:"POS_LEFT";s:3:"613";s:5:"WIDTH";s:3:"350";s:6:"HEIGHT";s:3:"200";s:5:"COLOR";s:1:"0";s:9:"COLLAPSED";s:1:"N";s:9:"COMPLETED";s:1:"N";s:6:"CLOSED";s:1:"Y";s:7:"DELETED";s:1:"N";s:10:"MARKER_TOP";s:1:"0";s:11:"MARKER_LEFT";s:1:"0";s:12:"MARKER_WIDTH";s:1:"0";s:13:"MARKER_HEIGHT";s:1:"0";s:13:"MARKER_ADJUST";s:5:"false";s:12:"DATE_UPDATE2";s:19:"12.02.2025 09:52:04";s:12:"DATE_CREATE2";s:19:"12.02.2025 09:52:03";s:6:"AUTHOR";s:21:"Шаза хамдан";s:4:"INFO";s:131:"Создан: <b>Шаза хамдан</b> 12.02.2025 09:52:00<br/>Изменен: <b>Шаза хамдан</b> 12.02.2025 09:52:00";s:12:"HTML_CONTENT";s:74:"<span class="bxst-title">Шаза хамдан 12.02.2025 09:51:56</span> ";}}}}';
+return true;
+?>
