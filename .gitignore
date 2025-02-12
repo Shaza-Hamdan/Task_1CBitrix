@@ -1,7 +1,15 @@
-bitrix/
-upload/
-bitrix/.settings.php
-bitrix/php_interface/dbconn.php
-bitrix/license_key.php
-dump.sql
-.env
+# Exclude Bitrix specific files and directories
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/tmp/
+/bitrix/.settings.php
+/bitrix/php_interface/dbconn.php
+/bitrix/license_key.php
+/.env
+/upload/
+
+# Exclude the full components folder if you don't want to upload everything
+/bitrix/components/
+
+# But include this specific component
+!bitrix/components/bitrix/news.list/templates/Custom_news2/
