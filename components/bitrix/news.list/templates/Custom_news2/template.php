@@ -1,28 +1,45 @@
 <?php if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); ?>
 
-<!-- Link to the CSS file -->
-<link rel="stylesheet" href="<?= $templateFolder ?>/build/css/common.css">
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+    <title>Новости</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="<?=$templateFolder?>/build/images/favicon.604825ed.ico" type="image/x-icon">
+    <link href="<?=$templateFolder?>/build/css/common.css" rel="stylesheet">
+</head>
 
-<div class="custom-news">
-    <?php if (!empty($arResult["ITEMS"])): ?>
-        <ul class="news-list">
-            <?php foreach ($arResult["ITEMS"] as $arItem): ?>
-                <?php
-                $title = htmlspecialchars($arItem["NAME"]);
-                $link = $arItem["DETAIL_PAGE_URL"];
-                $date = $arItem["DISPLAY_ACTIVE_FROM"];
-                $previewText = $arItem["PREVIEW_TEXT"];
-                $image = $arItem["PREVIEW_PICTURE"]["SRC"] ?? $templateFolder . "/build/images/default.jpg";
-                ?>
-                <li class="news-item">
-                    <a href="<?= $link ?>" class="news-title"><?= $title ?></a>
-                    <span class="news-date"><?= $date ?></span>
-                    <img src="<?= $image ?>" alt="<?= $title ?>" class="news-image">
-                    <p class="news-preview"><?= $previewText ?></p>
-                </li>
-            <?php endforeach; ?>
-        </ul>
-    <?php else: ?>
-        <p>Новостей пока нет.</p>
-    <?php endif; ?>
+<body>
+<div id="barba-wrapper">
+    <div class="article-list">  
+
+        <?php 
+        usort($arResult["ITEMS"], function($a, $b) {
+            return $a["ID"] - $b["ID"]; // Ascending order
+        });
+        foreach ($arResult["ITEMS"] as $arItem): ?>
+            <?php
+                // Получаем путь к изображению
+                $imageSrc = CFile::GetPath($arItem["PREVIEW_PICTURE"]["ID"]);
+                $title = htmlspecialchars(html_entity_decode($arItem["NAME"], ENT_QUOTES, 'UTF-8'));
+                $content = htmlspecialchars(html_entity_decode($arItem["PREVIEW_TEXT"], ENT_QUOTES, 'UTF-8'));
+                $detailLink = $arItem["DETAIL_PAGE_URL"];
+            ?>
+            
+            <a class="article-item article-list__item" href="<?= $detailLink ?>" data-anim="anim-3">
+                <div class="article-item__background">
+                    <img src="<?= $imageSrc ?>" alt="<?= htmlspecialchars($title) ?>"/>
+                </div>
+                <div class="article-item__wrapper">
+                    <div class="article-item__title"><?= htmlspecialchars($title) ?></div>
+                    <div class="article-item__content"><?= htmlspecialchars($content) ?></div>
+                </div>
+            </a>
+
+        <?php endforeach; ?>
+
+    </div>
 </div>
+</body>
+</html>
