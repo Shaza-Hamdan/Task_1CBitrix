@@ -9,7 +9,8 @@
     <?php $APPLICATION->ShowHead(); ?>
 
     <!-- Link to custom styles -->
-    <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/common.css"></head>
+    <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/css/common.css">
+</head>
 <body>
     <!-- Show the admin control panel -->
     <?php $APPLICATION->ShowPanel(); ?>
@@ -57,12 +58,35 @@ $APPLICATION->IncludeComponent(
         "SORT_BY1" => "ACTIVE_FROM",       
         "SORT_ORDER1" => "DESC",          
         "CACHE_TYPE" => "A",               
-        "CACHE_TIME" => 3600,              
+        "CACHE_TIME" => 3600,   
+		"SUCCESS_URL" => "/success.php",           
     ),
     false 
 );
 ?>
-    </section>
+ </section>
+
+ <section class="contact-form">
+<?php
+$APPLICATION->IncludeComponent(
+    "bitrix:form.result.new",
+    "My_Template", 
+    array(
+        "WEB_FORM_ID" => 2,
+        "IGNORE_CUSTOM_TEMPLATE" => "N",
+        "USE_EXTENDED_ERRORS" => "Y",
+        "SEF_MODE" => "N",
+        "LIST_URL" => "",
+        "EDIT_URL" => "",
+        "SUCCESS_URL" => "",
+        "CHAIN_ITEM_TEXT" => "",
+        "CHAIN_ITEM_LINK" => ""
+    ),
+    false
+);
+?>
+
+ </section>
 
     <main>
         <!-- Main content area -->

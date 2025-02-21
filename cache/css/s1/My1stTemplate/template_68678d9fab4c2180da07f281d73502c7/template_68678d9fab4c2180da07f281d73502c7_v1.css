@@ -1,0 +1,184 @@
+
+
+/* Start:/bitrix/components/bitrix/form.result.new/templates/My_Template/style.css?1738588623666*/
+table.form-table
+{
+	width:100%;
+	background-color:white;
+	border-collapse:collapse;
+	font-size:100%;
+	font-weight:normal;
+	line-height:160%;
+}
+
+table.form-table th, table.form-table td
+{
+	border:1px solid #ADC3D5;
+	padding: 5px 5px;
+	vertical-align:top;
+}
+
+table.form-table th
+{
+	background-image:url(/bitrix/components/bitrix/form.result.new/templates/My_Template/images/table_head.gif);
+	background-repeat:repeat-x;
+	text-align: left;
+	color:#25639A;
+}
+
+
+table.form-table td
+{
+	padding: 15px 5px;
+}
+
+.form-required 
+{
+	color: red;
+}
+
+.error-fld {
+	display: block;
+	float: left;
+	height: 13px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-image: url(/bitrix/components/bitrix/form.result.new/templates/My_Template/images/icon_warn.gif);
+}
+/* End */
+
+
+/* Start:/bitrix/templates/My1stTemplate/template_styles.css?17400855401842*/
+/* Reset and base styles */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* Header styles */
+header {
+  background-color: rgb(69, 101, 134);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Aligns logo to the left and nav to the right */
+  align-items: center;
+  width: 100%; /* Ensures the container takes full width */
+}
+
+.logo {
+  flex: 1; /* Takes up available space */
+}
+
+/* Navigation styles */
+nav {
+   margin-left: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 21px;
+}
+
+nav a:hover {
+  background-color:rgb(142, 165, 188);
+  border-radius: 3px;
+}
+
+.banner img {
+    width: 100%; 
+    height: 40px; 
+    object-fit: cover;
+    display: block; 
+}
+
+
+.infoblock-content{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px;    
+    background-color: #f9f9f9;
+    border-radius: 5px; 
+}
+
+/* Main content area */
+main {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Footer styles */
+footer {
+  background-color:  rgb(69, 101, 134);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+}
+
+footer p:hover {
+  text-decoration: underline;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* End */
+/* /bitrix/components/bitrix/form.result.new/templates/My_Template/style.css?1738588623666 */
+/* /bitrix/templates/My1stTemplate/template_styles.css?17400855401842 */

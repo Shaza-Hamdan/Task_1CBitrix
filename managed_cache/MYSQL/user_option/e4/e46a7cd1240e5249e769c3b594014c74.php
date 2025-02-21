@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001739650028';
-$dateexpire = '001739653628';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:4:{s:11:"code_editor";a:1:{s:5:"theme";s:5:"light";}s:11:"last_pathes";s:446:"a:10:{i:0;s:63:"/bitrix/templates/My1stTemplate/components/bitrix/meun/top_menu";i:1;s:26:"/bitrix/templates/.default";i:2;s:44:"/bitrix/templates/corp_services_green/images";i:3;s:37:"/bitrix/templates/corp_services_green";i:4;s:31:"/bitrix/templates/My1stTemplate";i:5;s:27:"/bitrix/templates/landing24";i:6;s:34:"/bitrix/templates/landing24/themes";i:7;s:5:"/news";i:8;s:6:"/login";i:9;s:48:"/bitrix/templates/corp_services_green/components";}";s:17:"medialib_def_type";s:1:"1";s:19:"stickers_last_color";i:0;}}';
+$datecreate = '001740118174';
+$dateexpire = '001740121774';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:6:{s:11:"last_pathes";s:446:"a:10:{i:0;s:63:"/bitrix/templates/My1stTemplate/components/bitrix/meun/top_menu";i:1;s:26:"/bitrix/templates/.default";i:2;s:44:"/bitrix/templates/corp_services_green/images";i:3;s:37:"/bitrix/templates/corp_services_green";i:4;s:31:"/bitrix/templates/My1stTemplate";i:5;s:27:"/bitrix/templates/landing24";i:6;s:34:"/bitrix/templates/landing24/themes";i:7;s:5:"/news";i:8;s:6:"/login";i:9;s:48:"/bitrix/templates/corp_services_green/components";}";s:11:"code_editor";a:1:{s:5:"theme";s:5:"light";}s:17:"medialib_def_type";s:1:"1";s:19:"stickers_last_color";i:0;s:30:"taskbar_settings_FORM_TEMPLATE";s:250:"a:3:{s:19:"BXPropertiesTaskbar";a:3:{s:4:"show";b:1;s:3:"set";i:3;s:6:"active";b:1;}s:20:"BXComponents2Taskbar";a:3:{s:4:"show";b:1;s:3:"set";s:1:"2";s:6:"active";b:1;}s:21:"BXFormElementsTaskbar";a:3:{s:4:"show";b:1;s:3:"set";i:3;s:6:"active";b:1;}}";s:33:"taskbarset_settings_FORM_TEMPLATE";s:90:"a:2:{i:2;a:2:{s:4:"show";b:1;s:4:"size";i:200;}i:3;a:2:{s:4:"show";b:1;s:4:"size";i:160;}}";}}';
 return true;
 ?>
